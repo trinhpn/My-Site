@@ -26,7 +26,7 @@ hr {
   width: 150px;
   background-color: #f1f1f1;
   position: fixed;
-  height: 100%;
+  height: auto;
   overflow: auto;
 }
 
@@ -36,7 +36,10 @@ hr {
   padding: 16px;
   text-decoration: none;
 }
- 
+.sidebar-wrapper {
+  display: block;
+}
+
 
 .sidebar a:hover:not(.active) {
   background-color: #555;
@@ -45,21 +48,21 @@ hr {
 
 div.my-wrapper {
   margin-left: 150px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding: 5px 16px;
 }
 
-/*@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
     height: auto;
     position: fixed;
+    top: 0;
     z-index: 100;
   }
-  .my-content {padding-top: 56px;}
+  
   .sidebar a {float: left;}
   div.my-wrapper  {margin-left: 0;}
-}*/
+}
 
 @media screen and (max-width: 400px) {
   .sidebar a {
