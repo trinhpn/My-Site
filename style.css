@@ -6,10 +6,13 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+}
 hr {
   max-width: 65px;
   border-width: 3px;
@@ -17,12 +20,50 @@ hr {
 }
 
 
-
-
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.my-wrapper {
+  margin-left: 150px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/*@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 100;
+  }
+  .my-content {padding-top: 56px;}
+  .sidebar a {float: left;}
+  div.my-wrapper  {margin-left: 0;}
+}*/
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
