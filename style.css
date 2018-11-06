@@ -19,8 +19,9 @@ hr {
   border-color: #F05F44; 
   box-shadow: 5px 10px;
 }
-
-
+.col-lg-12 {
+  z-index: 999;
+}
 .sidebar {
   margin: 0;
   padding: 0;
