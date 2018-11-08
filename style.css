@@ -65,7 +65,9 @@ div.my-wrapper {
     top: 0;
 /*     z-index: 100; */
   }
-  
+  header {
+    margin-top: 50px;
+  }
   .sidebar a {float: left;}
   div.my-wrapper  {margin-left: 0;}
 }
