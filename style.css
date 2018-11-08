@@ -18,9 +18,9 @@ hr {
   border-width: 3px;
   border-color: #F05F44; 
 }
-.col-lg-12 {
+/* .col-lg-12 {
   z-index: 999;
-}
+} */
 .sidebar {
   margin: 0;
   padding: 0;
@@ -63,7 +63,7 @@ div.my-wrapper {
     height: auto;
     position: fixed;
     top: 0;
-    z-index: 100;
+/*     z-index: 100; */
   }
   
   .sidebar a {float: left;}
